@@ -7,6 +7,10 @@
   padding: 0 55px;
 }
 
+.logo-box {
+  margin: 5px 0 25px 0;
+}
+
 .header {
   display: flex;
   flex-direction: column;

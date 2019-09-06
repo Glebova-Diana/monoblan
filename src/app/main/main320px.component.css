@@ -1,0 +1,80 @@
+.main {
+  display: flex;
+  background: #fafafa;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0 0 0; /*change to 70 in the next style*/
+}
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio__image {
+  width: 100%;
+  margin: 0 auto 30px;
+}
+
+.portfolio__today-box {
+  position: absolute;
+  top: 53%;
+  left: 15px;
+}
+
+.portfolio__today {
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+}
+
+.portfolio__headline {
+  display: flex;
+  margin: 0 24% 0 0;
+
+  font-size: 17px;
+  font-family: "Proxima Nova";
+  color: var(--white-color);
+}
+
+.portfolio__headline--data {
+  width: 84px;
+  margin: 0 11% 0 0;
+}
+
+.portfolio__likes-box {
+  display: flex;
+  margin: 10px;
+  width: 55px;
+}
+
+.portfolio__likes-box--second {
+  width: 60px;
+}
+
+.portfolio__like-img {
+  margin: 0 5px 0 0;
+}
+
+.portfolio__like {
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Proxima Nova";
+  color: var(--white-color);
+}
+
+.portfolio__upload {
+  position: absolute;
+  top: 81%;
+  width: 185px;
+  left: 50%;
+  margin: 0 0 0 -90px;
+
+  font-size: 17px;
+  font-family: "Proxima Nova";
+  color: var(--white-color);
+}
