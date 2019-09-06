@@ -6,6 +6,7 @@
 .wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
   padding: 50px 0 0 0; /*change to 70 in the next style*/
@@ -13,47 +14,46 @@
 
 .portfolio {
   position: relative;
+  width: 100%;
+  margin: 0 auto 30px;
 }
 
 .portfolio__image {
   width: 100%;
-  margin: 0 auto 30px;
 }
 
 .portfolio__today-box {
   position: absolute;
   top: 53%;
   left: 15px;
+  width: 92%;
 }
 
 .portfolio__today {
   display: flex;
-  align-items: center;
-  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  justify-content: space-between;
 }
 
 .portfolio__headline {
   display: flex;
-  margin: 0 24% 0 0;
 
   font-size: 17px;
   font-family: "Proxima Nova";
   color: var(--white-color);
 }
 
-.portfolio__headline--data {
-  width: 84px;
-  margin: 0 11% 0 0;
-}
 
 .portfolio__likes-box {
   display: flex;
-  margin: 10px;
-  width: 55px;
+  width: 60%;
+  max-width: 150px;
+  margin: 0 0 15px 0;
 }
 
-.portfolio__likes-box--second {
-  width: 60px;
+.portfolio__likes {
+  display: flex;
+  width: 50%;
 }
 
 .portfolio__like-img {
@@ -61,6 +61,7 @@
 }
 
 .portfolio__like {
+  padding: 0 25px 0 0;
   font-weight: 700;
   font-size: 17px;
   font-family: "Proxima Nova";
@@ -77,4 +78,41 @@
   font-size: 17px;
   font-family: "Proxima Nova";
   color: var(--white-color);
+}
+
+.button {
+  width: 125px;
+  height: 30px;
+  margin: 0 0 40px 0;
+
+  font-size: 12px;
+  font-family: "Proxima Nova";
+  color: #000000;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: 0 3px #caccc6;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0 1px #caccc6;
+  transform: translateY(5px);
+}
+
+@media (min-width: 540px) {
+
+  .wrapper {
+    width: 95%;
+  }
+
+  .portfolio {
+    width: 48%;
+  }
+
+  .portfolio__image {
+    width: 100%;
+  }
 }
