@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+  max-width: 935px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 0;
+}
+
+.header__headline-box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px;
+}
+
+.header__headline {
+  margin: 0 20px 0 0;
+
+  font-size: 35px;
+  font-family: 'Myriad Pro';
+  color: #262626;
+}
+
+.header__start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+
+  font-size: 15px;
+  font-family: Neue Helvetica;
+  color: #4090db;
+  border: 1px solid #4090db;
+  border-radius: 3px;
+}
+
+.header__counts {
+  display: flex;
+  margin: 0 0 15px;
+}
+
+.header__posts {
+  margin: 0 25px 0 0;
+
+  font-size: 17px;
+  font-family: "Proxima Nova";
+  color: #3d4044;
+}
+
+.header__posts--number {
+  margin: 0;
+  font-weight: 700;
+}
+
+.header__date-box {
+  display: flex;
+}
+
+.header__date-name {
+  font-size: 17px;
+  font-family: Tahoma,sans-serif;
+  color: #262626;
+}
