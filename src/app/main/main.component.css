@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
-  padding: 50px 0 0 0; /*change to 70 in the next style*/
+  padding: 50px 0 0 0;
 }
 
 .portfolio {
@@ -54,7 +54,7 @@
   margin: 0 0 15px 0;
 
   font-size: 17px;
-  font-family: "Proxima Nova";
+  font-family: var(--font-proxima);
   color: var(--white-color);
 }
 
@@ -84,7 +84,7 @@
   padding: 0 15px 0 0;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Proxima Nova";
+  font-family: var(--font-proxima);
   color: var(--white-color);
 }
 
@@ -96,7 +96,7 @@
   margin: 0 0 0 -90px;
 
   font-size: 17px;
-  font-family: "Proxima Nova";
+  font-family: var(--font-proxima);
   color: var(--white-color);
 }
 
@@ -106,7 +106,7 @@
   margin: 0 0 40px 0;
 
   font-size: 12px;
-  font-family: "Proxima Nova";
+  font-family: var(--font-proxima);
   color: #000000;
   background: transparent;
   border: 1px solid #000000;
@@ -122,7 +122,7 @@
   transform: translateY(2px);
 }
 
-@media (min-width: 540px) {
+@media (min-width: 768px) {
 
   .wrapper {
     width: 95%;
