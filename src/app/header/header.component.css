@@ -68,14 +68,43 @@
 }
 
 .header__date-box {
-  display: flex;
   margin: 0 0 15px 0;
 }
 
 .header__date-name {
+  display: flex;
+  margin: 0 10px 15px 0;
   font-size: 17px;
   font-family: Tahoma,sans-serif;
   color: #262626;
+}
+
+.button__calendar {
+  width: 18px;
+}
+
+::ng-deep .form-inline {
+  margin: 0 20px 0 0;
+}
+
+::ng-deep .form-inline .input-group {
+  width: 165px;
+}
+
+::ng-deep .btn-outline-secondary {
+  background: #ebebeb;
+}
+
+::ng-deep .btn-outline-secondary:focus {
+  box-shadow: none;
+}
+
+::ng-deep .btn-outline-secondary:hover {
+  background: #ebebeb;
+}
+
+::ng-deep .dropdown-menu.show {
+  left: -67px!important;
 }
 
 @media (min-width: 768px) {
@@ -100,6 +129,20 @@
   .header__counts {
     display: flex;
   }
+
+  .header__date-box {
+    display: flex;
+    align-items: baseline;
+  }
+
+  ::ng-deep .form-inline .input-group {
+    width: 180px;
+  }
+
+  ::ng-deep .dropdown-menu.show {
+    left: 0!important;
+  }
+
 }
 
 @media (min-width: 1024px) {

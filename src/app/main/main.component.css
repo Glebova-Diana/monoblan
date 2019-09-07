@@ -84,6 +84,7 @@
   padding: 0 15px 0 0;
   font-weight: 700;
   font-size: 17px;
+  line-height: 17px;
   font-family: var(--font-proxima);
   color: var(--white-color);
 }
@@ -91,7 +92,6 @@
 .portfolio__upload {
   position: absolute;
   top: 81%;
-  width: 185px;
   left: 50%;
   margin: 0 0 0 -90px;
 
@@ -144,7 +144,7 @@
 @media (min-width: 1024px) {
 
   .wrapper {
-    width: 82%;
+    width: 100%;
     max-width: 935px;
   }
 
