@@ -1,54 +1,63 @@
 <div class="wrapper">
-  <div class="logo-box">
-    <img class="logo-box__logo-img" src="../../assets/img/logo.jpg" alt="Logotype">
-  </div>
+
   <header class="header">
-    <div class="header__headline-box">
-      <span class="header__headline">monoblanproject</span>
-      <span class="header__start">Start on 17-02-2016</span>
+    <div class="header__main-wrapper">
+      <div class="logo-box">
+        <img class="logo-box__logo-img" src="../../assets/img/logo.jpg" alt="Logotype">
+      </div>
+      <div class="header__headline-box">
+        <span class="header__headline">monoblanproject</span>
+        <span class="header__start">Start on 17-02-2016</span>
+      </div>
     </div>
-    <div class="header__counts">
+
+    <div class="header__sub-wrapper">
+      <div class="header__counts">
       <span class="header__posts">
         <span class="header__posts header__posts--number">870</span>
         posts
       </span>
-      <span class="header__posts">
+        <span class="header__posts">
         <span class="header__posts header__posts--number">11,787</span>
         followers
       </span>
-      <span class="header__posts">
+        <span class="header__posts">
         <span class="header__posts header__posts--number">112</span>
         following
       </span>
+      </div>
     </div>
+
     <div class="header__date-box">
       <span class="header__date-name">Date</span>
-      <form class="form-inline">
-        <div class="form-group">
-          <div class="input-group">
-            <input class="form-control" placeholder="from"
-                   name="dp" ngbDatepicker navigation="arrows" #d="ngbDatepicker">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button">
-                <img class="button__calendar" src="../../assets/img/calendar.svg" alt="Calendar">
-              </button>
+      <div class="date-wrapper">
+        <form class="form-inline">
+          <div class="form-group">
+            <div class="input-group">
+              <input class="form-control" placeholder="from"
+                     name="dp" ngbDatepicker navigation="arrows" #d="ngbDatepicker">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button">
+                  <img class="button__calendar" src="../../assets/img/calendar.svg" alt="Calendar">
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-      <form class="form-inline">
-        <div class="form-group">
-          <div class="input-group">
-            <input class="form-control" placeholder="to"
-                   name="dp" ngbDatepicker navigation="arrows" #d2="ngbDatepicker">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary calendar" (click)="d2.toggle()" type="button">
-                <img class="button__calendar" src="../../assets/img/calendar.svg" alt="Calendar">
-              </button>
+        </form>
+        <form class="form-inline">
+          <div class="form-group">
+            <div class="input-group">
+              <input class="form-control" placeholder="to"
+                     name="dp" ngbDatepicker navigation="arrows" #d2="ngbDatepicker">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary calendar" (click)="d2.toggle()" type="button">
+                  <img class="button__calendar" src="../../assets/img/calendar.svg" alt="Calendar">
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </header>
 </div>

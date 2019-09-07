@@ -13,6 +13,11 @@
   width: 75px;
 }
 
+.header__main-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +55,8 @@
 }
 
 .header__counts {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 0 15px;
 }
 
@@ -79,6 +86,11 @@
   color: #262626;
 }
 
+.date-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .button__calendar {
   width: 18px;
 }
@@ -88,7 +100,7 @@
 }
 
 ::ng-deep .form-inline .input-group {
-  width: 165px;
+  width: 175px;
 }
 
 ::ng-deep .btn-outline-secondary {
@@ -101,10 +113,6 @@
 
 ::ng-deep .btn-outline-secondary:hover {
   background: #ebebeb;
-}
-
-::ng-deep .dropdown-menu.show {
-  left: -67px!important;
 }
 
 @media (min-width: 768px) {
@@ -126,6 +134,20 @@
     margin: 0;
   }
 
+  .header__sub-wrapper {
+    height: 50px;
+    padding-left: 140px;
+    margin: -30px 0 0 -3px;
+  }
+
+  .logo-box__logo-img {
+    width: 100px;
+  }
+
+  .logo-box {
+    margin-right: 35px;
+  }
+
   .header__counts {
     display: flex;
   }
@@ -133,6 +155,12 @@
   .header__date-box {
     display: flex;
     align-items: baseline;
+    padding-left: 140px;
+    margin: -5px 0 10px -3px;
+  }
+
+  .date-wrapper {
+    flex-direction: row;
   }
 
   ::ng-deep .form-inline .input-group {
@@ -161,5 +189,20 @@
 
   .header {
     padding: 40px 0 0 0;
+  }
+
+  .header__sub-wrapper {
+    height: 50px;
+    padding-left: 250px;
+    margin: -100px 0 0 0;
+  }
+
+  .header__date-box {
+    padding-left: 250px;
+    margin: -10px 0 10px 0;
+  }
+
+  .header__headline-box {
+    margin: -85px 0 0 0;
   }
 }

@@ -58,14 +58,6 @@
   color: var(--white-color);
 }
 
-
-.portfolio__likes-box {
-  display: flex;
-  width: 64%;
-  max-width: 170px;
-  margin: 0 0 15px 0;
-}
-
 .portfolio__likes {
   display: flex;
   width: 50%;
@@ -74,11 +66,6 @@
 .portfolio__like-img {
   margin: 0 5px 15px 0;
 }
-
-.portfolio__watch-img {
-  margin: 0 5px 0 3px;
-}
-
 
 .portfolio__like {
   padding: 0 15px 0 0;
